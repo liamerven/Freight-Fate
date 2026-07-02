@@ -3080,6 +3080,93 @@
       ],
       "lat": 37.7782,
       "lon": -81.1882
+    },
+    "Columbia, Missouri": {
+      "state": "Missouri",
+      "region": "heartland",
+      "locations": [
+        {
+          "name": "3M Columbia Plant",
+          "type": "manufacturing_plant",
+          "source_note": "3M plant making medical filtration/diagnostic products and stethoscopes, Columbia."
+        },
+        {
+          "name": "Kraft Heinz Oscar Mayer Plant",
+          "type": "food_processor",
+          "source_note": "Kraft Heinz Oscar Mayer plant, 24/7 hot dog production, Columbia."
+        },
+        {
+          "name": "Buske Logistics Distribution Center",
+          "type": "distribution",
+          "source_note": "Third-party logistics/distribution center on the I-70 corridor between St. Louis and Kansas City."
+        }
+      ],
+      "lat": 38.9517,
+      "lon": -92.3341
+    },
+    "Sioux City": {
+      "state": "Iowa",
+      "region": "heartland",
+      "locations": [
+        {
+          "name": "Seaboard Triumph Foods",
+          "type": "food_processor",
+          "source_note": "Seaboard Triumph Foods fresh pork plant (~20,000 hogs/day), Bridgeport West Industrial Park, Sioux City."
+        },
+        {
+          "name": "CF Industries Port Neal",
+          "type": "chemical_petroleum_terminal",
+          "source_note": "CF Industries Port Neal nitrogen-fertilizer complex on the Missouri River south of Sioux City."
+        },
+        {
+          "name": "Sioux City Grain Terminal",
+          "type": "farm_elevator",
+          "source_note": "Grain and ethanol shipping terminal serving the upper-Midwest ag belt."
+        }
+      ],
+      "lat": 42.4999,
+      "lon": -96.4003
+    },
+    "Grand Island": {
+      "state": "Nebraska",
+      "region": "heartland",
+      "locations": [
+        {
+          "name": "JBS Grand Island Beef Plant",
+          "type": "food_processor",
+          "source_note": "JBS USA beef processing plant, central Nebraska cattle country, exporting to 30+ countries."
+        },
+        {
+          "name": "Case IH Grand Island Plant",
+          "type": "manufacturing_plant",
+          "source_note": "CNH/Case IH plant building Axial-Flow combines and hay & forage equipment, Grand Island."
+        },
+        {
+          "name": "Hornady Manufacturing",
+          "type": "manufacturing_plant",
+          "source_note": "Hornady Manufacturing, family-owned ammunition maker headquartered in Grand Island."
+        }
+      ],
+      "lat": 40.9264,
+      "lon": -98.342
+    },
+    "North Platte": {
+      "state": "Nebraska",
+      "region": "heartland",
+      "locations": [
+        {
+          "name": "Union Pacific Bailey Yard",
+          "type": "rail",
+          "source_note": "Union Pacific Bailey Yard, the world's largest railroad classification yard (~2,850 acres, 10,000 cars/day)."
+        },
+        {
+          "name": "North Platte Grain Terminal",
+          "type": "farm_elevator",
+          "source_note": "Grain and feedlot-supply shipping serving western Nebraska."
+        }
+      ],
+      "lat": 41.1239,
+      "lon": -100.7654
     }
   },
   "legs": [
@@ -259473,6 +259560,964 @@
           "name": "Lancer Truck Stop",
           "type": "service_plaza",
           "at_mi": 99.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Columbia, Missouri",
+      "to": "St. Louis",
+      "miles": 125,
+      "highway": "I-70",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 38.9517,
+            "lon": -92.33414
+          },
+          {
+            "at_mi": 25.0,
+            "lat": 38.9436,
+            "lon": -91.8948
+          },
+          {
+            "at_mi": 50.0,
+            "lat": 38.89452,
+            "lon": -91.43889
+          },
+          {
+            "at_mi": 75.0,
+            "lat": 38.82966,
+            "lon": -91.01388
+          },
+          {
+            "at_mi": 100.0,
+            "lat": 38.67248,
+            "lon": -90.62462
+          },
+          {
+            "at_mi": 125.0,
+            "lat": 38.62681,
+            "lon": -90.19861
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 716.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 25.0,
+            "elevation_ft": 821.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 50.0,
+            "elevation_ft": 876.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 75.0,
+            "elevation_ft": 714.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 100.0,
+            "elevation_ft": 450.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 125.0,
+            "elevation_ft": 495.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 125.0,
+            "avg_grade_pct": -0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-70 corridor between Columbia, Missouri and St. Louis",
+            "at_mi": 75.0,
+            "type": "place",
+            "state": "Missouri",
+            "highway": "I-70",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Missouri",
+            "miles": 125.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Petro Stopping Centers",
+          "type": "service_plaza",
+          "at_mi": 25.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        },
+        {
+          "name": "Mr. Fuel Travel Center",
+          "type": "service_plaza",
+          "at_mi": 75.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Columbia, Missouri",
+      "to": "Kansas City",
+      "miles": 126,
+      "highway": "I-70",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 38.9517,
+            "lon": -92.33414
+          },
+          {
+            "at_mi": 25.2,
+            "lat": 38.93645,
+            "lon": -92.7477
+          },
+          {
+            "at_mi": 50.4,
+            "lat": 38.96332,
+            "lon": -93.21151
+          },
+          {
+            "at_mi": 75.6,
+            "lat": 38.99241,
+            "lon": -93.67592
+          },
+          {
+            "at_mi": 100.8,
+            "lat": 39.01675,
+            "lon": -94.14373
+          },
+          {
+            "at_mi": 126.0,
+            "lat": 39.0997,
+            "lon": -94.57855
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 716.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 25.2,
+            "elevation_ft": 695.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 50.4,
+            "elevation_ft": 787.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 75.6,
+            "elevation_ft": 797.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 100.8,
+            "elevation_ft": 828.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 126.0,
+            "elevation_ft": 907.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 126.0,
+            "avg_grade_pct": 0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-70 corridor between Columbia, Missouri and Kansas City",
+            "at_mi": 75.6,
+            "type": "place",
+            "state": "Missouri",
+            "highway": "I-70",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Missouri",
+            "miles": 126.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Pilot Travel Center",
+          "type": "service_plaza",
+          "at_mi": 75.6,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        },
+        {
+          "name": "Petro Stopping Centers",
+          "type": "service_plaza",
+          "at_mi": 100.8,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Sioux City",
+      "to": "Omaha",
+      "miles": 97,
+      "highway": "I-29",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 42.4999,
+            "lon": -96.40013
+          },
+          {
+            "at_mi": 24.3,
+            "lat": 42.1857,
+            "lon": -96.23668
+          },
+          {
+            "at_mi": 48.5,
+            "lat": 41.85547,
+            "lon": -96.1022
+          },
+          {
+            "at_mi": 72.7,
+            "lat": 41.55583,
+            "lon": -95.91745
+          },
+          {
+            "at_mi": 97.0,
+            "lat": 41.2565,
+            "lon": -95.93454
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1200.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 24.3,
+            "elevation_ft": 1056.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 48.5,
+            "elevation_ft": 1026.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 72.7,
+            "elevation_ft": 1010.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 97.0,
+            "elevation_ft": 1046.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 97.0,
+            "avg_grade_pct": -0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-29 corridor between Sioux City and Omaha",
+            "at_mi": 48.5,
+            "type": "place",
+            "state": "Nebraska",
+            "highway": "I-29",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Iowa",
+            "miles": 96.0
+          },
+          {
+            "state": "Nebraska",
+            "miles": 1.0
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 96.0,
+            "from_state": "Iowa",
+            "state": "Nebraska",
+            "place": "Iowa-Nebraska line on I-29",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 55.0,
+          "source": "Real-world I-29/I-80 travel center, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Sioux City",
+      "to": "Sioux Falls",
+      "miles": 86,
+      "highway": "I-29",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 42.4999,
+            "lon": -96.40013
+          },
+          {
+            "at_mi": 21.4,
+            "lat": 42.67725,
+            "lon": -96.68675
+          },
+          {
+            "at_mi": 43.0,
+            "lat": 42.95727,
+            "lon": -96.7947
+          },
+          {
+            "at_mi": 64.6,
+            "lat": 43.27383,
+            "lon": -96.79608
+          },
+          {
+            "at_mi": 86.0,
+            "lat": 43.54456,
+            "lon": -96.731
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1200.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 21.4,
+            "elevation_ft": 1115.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 43.0,
+            "elevation_ft": 1335.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 64.6,
+            "elevation_ft": 1302.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 86.0,
+            "elevation_ft": 1463.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 86.0,
+            "avg_grade_pct": 0.06,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-29 corridor between Sioux City and Sioux Falls",
+            "at_mi": 43.0,
+            "type": "place",
+            "state": "South Dakota",
+            "highway": "I-29",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Iowa",
+            "miles": 3.2
+          },
+          {
+            "state": "South Dakota",
+            "miles": 82.8
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 3.2,
+            "from_state": "Iowa",
+            "state": "South Dakota",
+            "place": "Iowa-South Dakota line on I-29",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 35.0,
+          "source": "Real-world I-29/I-80 travel center, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Grand Island",
+      "to": "Lincoln",
+      "miles": 97,
+      "highway": "I-80",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 40.92618,
+            "lon": -98.34184
+          },
+          {
+            "at_mi": 24.3,
+            "lat": 40.82189,
+            "lon": -98.09303
+          },
+          {
+            "at_mi": 48.5,
+            "lat": 40.8211,
+            "lon": -97.60495
+          },
+          {
+            "at_mi": 72.7,
+            "lat": 40.82214,
+            "lon": -97.13632
+          },
+          {
+            "at_mi": 97.0,
+            "lat": 40.8136,
+            "lon": -96.70261
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1873.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 24.3,
+            "elevation_ft": 1804.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 48.5,
+            "elevation_ft": 1656.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 72.7,
+            "elevation_ft": 1476.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 97.0,
+            "elevation_ft": 1230.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 97.0,
+            "avg_grade_pct": -0.13,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-80 corridor between Grand Island and Lincoln",
+            "at_mi": 48.5,
+            "type": "place",
+            "state": "Nebraska",
+            "highway": "I-80",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Nebraska",
+            "miles": 97.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Bosselman Travel Center",
+          "type": "travel_center",
+          "at_mi": 55.0,
+          "source": "Real-world I-29/I-80 travel center, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "confirmed",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Grand Island",
+      "to": "North Platte",
+      "miles": 145,
+      "highway": "I-80",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 40.92618,
+            "lon": -98.34184
+          },
+          {
+            "at_mi": 29.0,
+            "lat": 40.7227,
+            "lon": -98.72719
+          },
+          {
+            "at_mi": 58.0,
+            "lat": 40.67739,
+            "lon": -99.27038
+          },
+          {
+            "at_mi": 87.0,
+            "lat": 40.76322,
+            "lon": -99.80813
+          },
+          {
+            "at_mi": 116.0,
+            "lat": 40.96454,
+            "lon": -100.27916
+          },
+          {
+            "at_mi": 145.0,
+            "lat": 41.12401,
+            "lon": -100.76547
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1873.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 29.0,
+            "elevation_ft": 2017.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 58.0,
+            "elevation_ft": 2214.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 87.0,
+            "elevation_ft": 2414.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 116.0,
+            "elevation_ft": 2611.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 145.0,
+            "elevation_ft": 2813.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 145.0,
+            "avg_grade_pct": 0.12,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-80 corridor between Grand Island and North Platte",
+            "at_mi": 87.0,
+            "type": "place",
+            "state": "Nebraska",
+            "highway": "I-80",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Nebraska",
+            "miles": 145.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Sapp Bros Travel Center",
+          "type": "travel_center",
+          "at_mi": 50.0,
+          "source": "Real-world I-29/I-80 travel center, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "confirmed",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        },
+        {
+          "name": "Bosselman Travel Center",
+          "type": "travel_center",
+          "at_mi": 105.0,
+          "source": "Real-world I-29/I-80 travel center, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "North Platte",
+      "to": "Cheyenne",
+      "miles": 220,
+      "highway": "I-80",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 41.12401,
+            "lon": -100.76547
+          },
+          {
+            "at_mi": 27.5,
+            "lat": 41.11748,
+            "lon": -101.26532
+          },
+          {
+            "at_mi": 55.0,
+            "lat": 41.09953,
+            "lon": -101.78359
+          },
+          {
+            "at_mi": 82.5,
+            "lat": 41.04569,
+            "lon": -102.29406
+          },
+          {
+            "at_mi": 110.0,
+            "lat": 41.11305,
+            "lon": -102.81594
+          },
+          {
+            "at_mi": 137.5,
+            "lat": 41.20408,
+            "lon": -103.29484
+          },
+          {
+            "at_mi": 165.0,
+            "lat": 41.19219,
+            "lon": -103.8358
+          },
+          {
+            "at_mi": 192.5,
+            "lat": 41.1589,
+            "lon": -104.33157
+          },
+          {
+            "at_mi": 220.0,
+            "lat": 41.13978,
+            "lon": -104.82006
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2813.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 27.5,
+            "elevation_ft": 3023.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 55.0,
+            "elevation_ft": 3240.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 82.5,
+            "elevation_ft": 3664.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 110.0,
+            "elevation_ft": 4130.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 137.5,
+            "elevation_ft": 4405.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 165.0,
+            "elevation_ft": 5032.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 192.5,
+            "elevation_ft": 5449.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 220.0,
+            "elevation_ft": 6097.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 220.0,
+            "avg_grade_pct": 0.28,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-80 corridor between North Platte and Cheyenne",
+            "at_mi": 110.0,
+            "type": "place",
+            "state": "Wyoming",
+            "highway": "I-80",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Nebraska",
+            "miles": 177.6
+          },
+          {
+            "state": "Wyoming",
+            "miles": 42.4
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 177.6,
+            "from_state": "Nebraska",
+            "state": "Wyoming",
+            "place": "Nebraska-Wyoming line on I-80",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "TA",
+          "type": "service_plaza",
+          "at_mi": 55.0,
           "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
           "parking": "likely",
           "actions": [
