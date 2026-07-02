@@ -257861,6 +257861,1504 @@
           ]
         }
       ]
+    },
+    {
+      "from": "San Angelo",
+      "to": "Abilene",
+      "miles": 89,
+      "highway": "US-83",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 31.46392,
+            "lon": -100.43705
+          },
+          {
+            "at_mi": 22.2,
+            "lat": 31.73264,
+            "lon": -100.28903
+          },
+          {
+            "at_mi": 44.5,
+            "lat": 32.04134,
+            "lon": -100.25258
+          },
+          {
+            "at_mi": 66.8,
+            "lat": 32.24869,
+            "lon": -99.99138
+          },
+          {
+            "at_mi": 89.0,
+            "lat": 32.44874,
+            "lon": -99.73316
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1850.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 22.2,
+            "elevation_ft": 1866.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 44.5,
+            "elevation_ft": 1994.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 66.8,
+            "elevation_ft": 2217.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 89.0,
+            "elevation_ft": 1722.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 89.0,
+            "avg_grade_pct": -0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-83 corridor between San Angelo and Abilene",
+            "at_mi": 44.5,
+            "type": "place",
+            "state": "Texas",
+            "highway": "US-83",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Texas",
+            "miles": 89.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 45.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "San Angelo",
+      "to": "Midland",
+      "miles": 112,
+      "highway": "US-87",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 31.46392,
+            "lon": -100.43705
+          },
+          {
+            "at_mi": 28.0,
+            "lat": 31.70781,
+            "lon": -100.78672
+          },
+          {
+            "at_mi": 56.0,
+            "lat": 31.82832,
+            "lon": -101.18623
+          },
+          {
+            "at_mi": 84.0,
+            "lat": 31.87266,
+            "lon": -101.65149
+          },
+          {
+            "at_mi": 112.0,
+            "lat": 31.99743,
+            "lon": -102.07791
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1850.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 28.0,
+            "elevation_ft": 2158.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 56.0,
+            "elevation_ft": 2454.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 84.0,
+            "elevation_ft": 2650.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 112.0,
+            "elevation_ft": 2824.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 112.0,
+            "avg_grade_pct": 0.17,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-87 corridor between San Angelo and Midland",
+            "at_mi": 56.0,
+            "type": "place",
+            "state": "Texas",
+            "highway": "US-87",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Texas",
+            "miles": 112.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Coke County Rest Area",
+          "type": "public_rest_area",
+          "at_mi": 28.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Lawton",
+      "to": "Wichita Falls",
+      "miles": 54,
+      "highway": "I-44",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": true,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 34.60866,
+            "lon": -98.3903
+          },
+          {
+            "at_mi": 13.5,
+            "lat": 34.433,
+            "lon": -98.40959
+          },
+          {
+            "at_mi": 27.0,
+            "lat": 34.24314,
+            "lon": -98.4438
+          },
+          {
+            "at_mi": 40.5,
+            "lat": 34.08356,
+            "lon": -98.55762
+          },
+          {
+            "at_mi": 54.0,
+            "lat": 33.91365,
+            "lon": -98.49349
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1118.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 13.5,
+            "elevation_ft": 1040.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 27.0,
+            "elevation_ft": 993.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 40.5,
+            "elevation_ft": 1056.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 54.0,
+            "elevation_ft": 964.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 54.0,
+            "avg_grade_pct": -0.06,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-44 corridor between Lawton and Wichita Falls",
+            "at_mi": 27.0,
+            "type": "place",
+            "state": "Texas",
+            "highway": "I-44",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Oklahoma",
+            "miles": 38.2
+          },
+          {
+            "state": "Texas",
+            "miles": 15.8
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 38.2,
+            "from_state": "Oklahoma",
+            "state": "Texas",
+            "place": "Oklahoma-Texas line on I-44",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 30.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Lawton",
+      "to": "Oklahoma City",
+      "miles": 86,
+      "highway": "I-44",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": true,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 34.60866,
+            "lon": -98.3903
+          },
+          {
+            "at_mi": 21.5,
+            "lat": 34.82628,
+            "lon": -98.21252
+          },
+          {
+            "at_mi": 43.0,
+            "lat": 35.02648,
+            "lon": -97.92912
+          },
+          {
+            "at_mi": 64.5,
+            "lat": 35.24756,
+            "lon": -97.65664
+          },
+          {
+            "at_mi": 86.0,
+            "lat": 35.4676,
+            "lon": -97.51641
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1118.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 21.5,
+            "elevation_ft": 1423.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 43.0,
+            "elevation_ft": 1118.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 64.5,
+            "elevation_ft": 1341.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 86.0,
+            "elevation_ft": 1276.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 86.0,
+            "avg_grade_pct": 0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-44 corridor between Lawton and Oklahoma City",
+            "at_mi": 43.0,
+            "type": "place",
+            "state": "Oklahoma",
+            "highway": "I-44",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Oklahoma",
+            "miles": 86.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 52.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "confirmed",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Salina",
+      "to": "Wichita",
+      "miles": 90,
+      "highway": "I-135",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 38.8403,
+            "lon": -97.61146
+          },
+          {
+            "at_mi": 22.5,
+            "lat": 38.54834,
+            "lon": -97.62101
+          },
+          {
+            "at_mi": 45.0,
+            "lat": 38.24612,
+            "lon": -97.53646
+          },
+          {
+            "at_mi": 67.5,
+            "lat": 37.99462,
+            "lon": -97.32841
+          },
+          {
+            "at_mi": 90.0,
+            "lat": 37.6872,
+            "lon": -97.33037
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1241.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 22.5,
+            "elevation_ft": 1364.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 45.0,
+            "elevation_ft": 1519.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 67.5,
+            "elevation_ft": 1473.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 90.0,
+            "elevation_ft": 1318.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 90.0,
+            "avg_grade_pct": 0.02,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-135 corridor between Salina and Wichita",
+            "at_mi": 45.0,
+            "type": "place",
+            "state": "Kansas",
+            "highway": "I-135",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Kansas",
+            "miles": 90.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Newell's Truck Plaza",
+          "type": "travel_center",
+          "at_mi": 67.5,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Salina",
+      "to": "Topeka",
+      "miles": 112,
+      "highway": "I-70",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 38.8403,
+            "lon": -97.61146
+          },
+          {
+            "at_mi": 28.0,
+            "lat": 38.94378,
+            "lon": -97.16377
+          },
+          {
+            "at_mi": 56.0,
+            "lat": 39.06528,
+            "lon": -96.68576
+          },
+          {
+            "at_mi": 84.0,
+            "lat": 39.0583,
+            "lon": -96.1689
+          },
+          {
+            "at_mi": 112.0,
+            "lat": 39.04888,
+            "lon": -95.67798
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1241.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 28.0,
+            "elevation_ft": 1168.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 56.0,
+            "elevation_ft": 1355.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 84.0,
+            "elevation_ft": 1079.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 112.0,
+            "elevation_ft": 1003.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 112.0,
+            "avg_grade_pct": -0.04,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-70 corridor between Salina and Topeka",
+            "at_mi": 56.0,
+            "type": "place",
+            "state": "Kansas",
+            "highway": "I-70",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Kansas",
+            "miles": 112.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Paxico Rest Area",
+          "type": "public_rest_area",
+          "at_mi": 84.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Enid",
+      "to": "Oklahoma City",
+      "miles": 84,
+      "highway": "US-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 36.3956,
+            "lon": -97.87837
+          },
+          {
+            "at_mi": 21.0,
+            "lat": 36.10362,
+            "lon": -97.89899
+          },
+          {
+            "at_mi": 42.0,
+            "lat": 35.81138,
+            "lon": -97.94043
+          },
+          {
+            "at_mi": 63.0,
+            "lat": 35.61236,
+            "lon": -97.76288
+          },
+          {
+            "at_mi": 84.0,
+            "lat": 35.4676,
+            "lon": -97.51641
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1276.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 21.0,
+            "elevation_ft": 1177.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 42.0,
+            "elevation_ft": 1105.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 63.0,
+            "elevation_ft": 1207.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 84.0,
+            "elevation_ft": 1276.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 84.0,
+            "avg_grade_pct": -0.0,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-81 corridor between Enid and Oklahoma City",
+            "at_mi": 42.0,
+            "type": "place",
+            "state": "Oklahoma",
+            "highway": "US-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Oklahoma",
+            "miles": 84.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 45.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Enid",
+      "to": "Wichita",
+      "miles": 123,
+      "highway": "US-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": true,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 36.3956,
+            "lon": -97.87837
+          },
+          {
+            "at_mi": 30.8,
+            "lat": 36.40004,
+            "lon": -97.33273
+          },
+          {
+            "at_mi": 61.5,
+            "lat": 36.84017,
+            "lon": -97.34387
+          },
+          {
+            "at_mi": 92.2,
+            "lat": 37.27684,
+            "lon": -97.34015
+          },
+          {
+            "at_mi": 123.0,
+            "lat": 37.6872,
+            "lon": -97.33037
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1276.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 30.8,
+            "elevation_ft": 1063.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 61.5,
+            "elevation_ft": 1089.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 92.2,
+            "elevation_ft": 1240.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 123.0,
+            "elevation_ft": 1318.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 123.0,
+            "avg_grade_pct": 0.01,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-81 corridor between Enid and Wichita",
+            "at_mi": 61.5,
+            "type": "place",
+            "state": "Kansas",
+            "highway": "US-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Oklahoma",
+            "miles": 73.6
+          },
+          {
+            "state": "Kansas",
+            "miles": 49.4
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 73.6,
+            "from_state": "Oklahoma",
+            "state": "Kansas",
+            "place": "Oklahoma-Kansas line on US-81",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Pilot Travel Center",
+          "type": "travel_center",
+          "at_mi": 65.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Dodge City",
+      "to": "Garden City",
+      "miles": 53,
+      "highway": "US-50",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.75282,
+            "lon": -100.01723
+          },
+          {
+            "at_mi": 13.2,
+            "lat": 37.7961,
+            "lon": -100.24797
+          },
+          {
+            "at_mi": 26.5,
+            "lat": 37.85367,
+            "lon": -100.47795
+          },
+          {
+            "at_mi": 39.8,
+            "lat": 37.90042,
+            "lon": -100.69656
+          },
+          {
+            "at_mi": 53.0,
+            "lat": 37.97176,
+            "lon": -100.87268
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2515.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 13.2,
+            "elevation_ft": 2603.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 26.5,
+            "elevation_ft": 2804.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 39.8,
+            "elevation_ft": 2867.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 53.0,
+            "elevation_ft": 2854.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 53.0,
+            "avg_grade_pct": 0.13,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-50 corridor between Dodge City and Garden City",
+            "at_mi": 26.5,
+            "type": "place",
+            "state": "Kansas",
+            "highway": "US-50",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Kansas",
+            "miles": 53.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 27.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Dodge City",
+      "to": "Wichita",
+      "miles": 167,
+      "highway": "US-400",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.75282,
+            "lon": -100.01723
+          },
+          {
+            "at_mi": 27.8,
+            "lat": 37.89025,
+            "lon": -99.56186
+          },
+          {
+            "at_mi": 55.7,
+            "lat": 37.95493,
+            "lon": -99.06793
+          },
+          {
+            "at_mi": 83.5,
+            "lat": 37.955,
+            "lon": -98.56382
+          },
+          {
+            "at_mi": 111.3,
+            "lat": 37.98439,
+            "lon": -98.06851
+          },
+          {
+            "at_mi": 139.2,
+            "lat": 37.87598,
+            "lon": -97.64702
+          },
+          {
+            "at_mi": 167.0,
+            "lat": 37.6872,
+            "lon": -97.33037
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2515.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 27.8,
+            "elevation_ft": 2290.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 55.7,
+            "elevation_ft": 2086.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 83.5,
+            "elevation_ft": 1840.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 111.3,
+            "elevation_ft": 1614.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 139.2,
+            "elevation_ft": 1440.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 167.0,
+            "elevation_ft": 1318.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 167.0,
+            "avg_grade_pct": -0.15,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-400 corridor between Dodge City and Wichita",
+            "at_mi": 83.5,
+            "type": "place",
+            "state": "Kansas",
+            "highway": "US-400",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Kansas",
+            "miles": 167.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 90.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "confirmed",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Dodge City",
+      "to": "Salina",
+      "miles": 182,
+      "highway": "US-56",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.75282,
+            "lon": -100.01723
+          },
+          {
+            "at_mi": 30.3,
+            "lat": 37.89893,
+            "lon": -99.51463
+          },
+          {
+            "at_mi": 60.7,
+            "lat": 38.17533,
+            "lon": -99.10056
+          },
+          {
+            "at_mi": 91.0,
+            "lat": 38.36427,
+            "lon": -98.63137
+          },
+          {
+            "at_mi": 121.3,
+            "lat": 38.37659,
+            "lon": -98.09734
+          },
+          {
+            "at_mi": 151.7,
+            "lat": 38.44381,
+            "lon": -97.62075
+          },
+          {
+            "at_mi": 182.0,
+            "lat": 38.8403,
+            "lon": -97.61146
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2515.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 30.3,
+            "elevation_ft": 2260.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 60.7,
+            "elevation_ft": 2021.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 91.0,
+            "elevation_ft": 1822.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 121.3,
+            "elevation_ft": 1729.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 151.7,
+            "elevation_ft": 1532.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 182.0,
+            "elevation_ft": 1241.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 182.0,
+            "avg_grade_pct": -0.16,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-56 corridor between Dodge City and Salina",
+            "at_mi": 91.0,
+            "type": "place",
+            "state": "Kansas",
+            "highway": "US-56",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Kansas",
+            "miles": 182.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 95.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Garden City",
+      "to": "Amarillo",
+      "miles": 230,
+      "highway": "US-83",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.97176,
+            "lon": -100.87268
+          },
+          {
+            "at_mi": 32.8,
+            "lat": 37.50409,
+            "lon": -100.87085
+          },
+          {
+            "at_mi": 65.7,
+            "lat": 37.06716,
+            "lon": -100.90483
+          },
+          {
+            "at_mi": 98.5,
+            "lat": 36.77163,
+            "lon": -101.33968
+          },
+          {
+            "at_mi": 131.5,
+            "lat": 36.48785,
+            "lon": -101.80805
+          },
+          {
+            "at_mi": 164.3,
+            "lat": 36.12516,
+            "lon": -102.02009
+          },
+          {
+            "at_mi": 197.2,
+            "lat": 35.66435,
+            "lon": -101.95975
+          },
+          {
+            "at_mi": 230.0,
+            "lat": 35.22196,
+            "lon": -101.8313
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2854.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 32.8,
+            "elevation_ft": 2942.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 65.7,
+            "elevation_ft": 2805.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 98.5,
+            "elevation_ft": 3018.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 131.5,
+            "elevation_ft": 3507.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 164.3,
+            "elevation_ft": 3602.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 197.2,
+            "elevation_ft": 3701.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 230.0,
+            "elevation_ft": 3687.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 230.0,
+            "avg_grade_pct": 0.08,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-83 corridor between Garden City and Amarillo",
+            "at_mi": 131.5,
+            "type": "place",
+            "state": "Texas",
+            "highway": "US-83",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Kansas",
+            "miles": 74.4
+          },
+          {
+            "state": "Oklahoma",
+            "miles": 55.3
+          },
+          {
+            "state": "Texas",
+            "miles": 100.3
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 74.4,
+            "from_state": "Kansas",
+            "state": "Oklahoma",
+            "place": "Kansas-Oklahoma line on US-83",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          },
+          {
+            "at_mi": 129.6,
+            "from_state": "Oklahoma",
+            "state": "Texas",
+            "place": "Oklahoma-Texas line on US-83",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 80.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        },
+        {
+          "name": "Pilot Travel Center",
+          "type": "travel_center",
+          "at_mi": 165.0,
+          "source": "Love's/Pilot travel center on the corridor (both dominant in the KS/OK/TX plains), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
     }
   ]
 }
