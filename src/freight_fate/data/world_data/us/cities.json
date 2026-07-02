@@ -3167,6 +3167,42 @@
       ],
       "lat": 41.1239,
       "lon": -100.7654
+    },
+    "Joplin": {
+      "state": "Missouri",
+      "region": "heartland",
+      "locations": [
+        {
+          "name": "CFI Freight Terminal",
+          "type": "cross_dock",
+          "source_note": "Contract Freighters, Inc. (CFI) truckload carrier terminal, headquartered in Joplin since 1951."
+        },
+        {
+          "name": "Eagle Picher Technologies",
+          "type": "manufacturing_plant",
+          "source_note": "Eagle Picher Technologies battery and defense-electronics manufacturing, Joplin."
+        }
+      ],
+      "lat": 37.0842,
+      "lon": -94.5133
+    },
+    "Rolla": {
+      "state": "Missouri",
+      "region": "heartland",
+      "locations": [
+        {
+          "name": "Royal Canin Pet Food Plant",
+          "type": "food_processor",
+          "source_note": "Royal Canin (Mars) pet food manufacturing plant, Rolla."
+        },
+        {
+          "name": "Brewer Science",
+          "type": "manufacturing_plant",
+          "source_note": "Brewer Science microelectronic-materials manufacturing and shipping campus, Rolla."
+        }
+      ],
+      "lat": 37.9514,
+      "lon": -91.7713
     }
   }
 }

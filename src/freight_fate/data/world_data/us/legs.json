@@ -257364,6 +257364,503 @@
           ]
         }
       ]
+    },
+    {
+      "from": "Joplin",
+      "to": "Springfield",
+      "miles": 75,
+      "highway": "I-44",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.08425,
+            "lon": -94.51329
+          },
+          {
+            "at_mi": 18.8,
+            "lat": 37.08126,
+            "lon": -94.24334
+          },
+          {
+            "at_mi": 37.5,
+            "lat": 37.07408,
+            "lon": -93.89798
+          },
+          {
+            "at_mi": 56.2,
+            "lat": 37.18696,
+            "lon": -93.61634
+          },
+          {
+            "at_mi": 75.0,
+            "lat": 37.20902,
+            "lon": -93.29322
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1010.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 18.8,
+            "elevation_ft": 1072.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 37.5,
+            "elevation_ft": 1174.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 56.2,
+            "elevation_ft": 1194.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 75.0,
+            "elevation_ft": 1325.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 75.0,
+            "avg_grade_pct": 0.09,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-44 corridor between Joplin and Springfield",
+            "at_mi": 37.5,
+            "type": "place",
+            "state": "Missouri",
+            "highway": "I-44",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Missouri",
+            "miles": 75.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Flying J Travel Center",
+          "type": "travel_center",
+          "at_mi": 40.0,
+          "source": "Real-world I-44 travel center, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Joplin",
+      "to": "Tulsa",
+      "miles": 113,
+      "highway": "I-44",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": true,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.08425,
+            "lon": -94.51329
+          },
+          {
+            "at_mi": 28.2,
+            "lat": 36.83012,
+            "lon": -94.86672
+          },
+          {
+            "at_mi": 56.5,
+            "lat": 36.56929,
+            "lon": -95.21242
+          },
+          {
+            "at_mi": 84.8,
+            "lat": 36.30297,
+            "lon": -95.58732
+          },
+          {
+            "at_mi": 113.0,
+            "lat": 36.154,
+            "lon": -95.9928
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1010.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 28.2,
+            "elevation_ft": 823.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 56.5,
+            "elevation_ft": 702.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 84.8,
+            "elevation_ft": 620.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 113.0,
+            "elevation_ft": 733.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 113.0,
+            "avg_grade_pct": -0.05,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-44 corridor between Joplin and Tulsa",
+            "at_mi": 56.5,
+            "type": "place",
+            "state": "Oklahoma",
+            "highway": "I-44",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Missouri",
+            "miles": 9.9
+          },
+          {
+            "state": "Oklahoma",
+            "miles": 103.1
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 9.9,
+            "from_state": "Missouri",
+            "state": "Oklahoma",
+            "place": "Missouri-Oklahoma line on I-44",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's",
+          "type": "fuel_station",
+          "at_mi": 28.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "parking"
+          ]
+        },
+        {
+          "name": "Love's Travel Stop",
+          "type": "service_plaza",
+          "at_mi": 56.5,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Rolla",
+      "to": "St. Louis",
+      "miles": 106,
+      "highway": "I-44",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.95149,
+            "lon": -91.77131
+          },
+          {
+            "at_mi": 26.4,
+            "lat": 38.10591,
+            "lon": -91.34541
+          },
+          {
+            "at_mi": 53.0,
+            "lat": 38.34336,
+            "lon": -90.99378
+          },
+          {
+            "at_mi": 79.6,
+            "lat": 38.5037,
+            "lon": -90.60726
+          },
+          {
+            "at_mi": 106.0,
+            "lat": 38.62681,
+            "lon": -90.19861
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1112.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 26.4,
+            "elevation_ft": 921.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 53.0,
+            "elevation_ft": 764.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 79.6,
+            "elevation_ft": 442.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 106.0,
+            "elevation_ft": 495.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 106.0,
+            "avg_grade_pct": -0.12,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-44 corridor between Rolla and St. Louis",
+            "at_mi": 53.0,
+            "type": "place",
+            "state": "Missouri",
+            "highway": "I-44",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Missouri",
+            "miles": 106.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "TA",
+          "type": "service_plaza",
+          "at_mi": 26.4,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        },
+        {
+          "name": "Saint Clair Rest Area (Westbound)",
+          "type": "public_rest_area",
+          "at_mi": 53.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Rolla",
+      "to": "Springfield",
+      "miles": 111,
+      "highway": "I-44",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.95149,
+            "lon": -91.77131
+          },
+          {
+            "at_mi": 27.8,
+            "lat": 37.8188,
+            "lon": -92.18424
+          },
+          {
+            "at_mi": 55.5,
+            "lat": 37.69418,
+            "lon": -92.62966
+          },
+          {
+            "at_mi": 83.2,
+            "lat": 37.36881,
+            "lon": -92.90724
+          },
+          {
+            "at_mi": 111.0,
+            "lat": 37.20902,
+            "lon": -93.29322
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1112.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 27.8,
+            "elevation_ft": 846.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 55.5,
+            "elevation_ft": 1240.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 83.2,
+            "elevation_ft": 1371.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 111.0,
+            "elevation_ft": 1325.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 111.0,
+            "avg_grade_pct": 0.04,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-44 corridor between Rolla and Springfield",
+            "at_mi": 55.5,
+            "type": "place",
+            "state": "Missouri",
+            "highway": "I-44",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Missouri",
+            "miles": 111.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 55.0,
+          "source": "Real-world I-44 travel center, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
     }
   ]
 }
