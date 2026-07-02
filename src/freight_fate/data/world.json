@@ -2022,9 +2022,20 @@
     "Roanoke": {
       "lat": 37.27097,
       "lon": -79.94143,
-      "region": "atlantic_southeast",
+      "region": "appalachia",
       "state": "Virginia",
-      "locations": []
+      "locations": [
+        {
+          "name": "Norfolk Southern Roanoke Rail Yard",
+          "type": "rail",
+          "source_note": "Norfolk Southern rail yard, a historic classification hub (former Norfolk & Western)."
+        },
+        {
+          "name": "Advance Auto Parts Distribution Center",
+          "type": "retail_distribution",
+          "source_note": "Advance Auto Parts distribution operation rooted in the Roanoke Valley."
+        }
+      ]
     },
     "Aurora": {
       "lat": 41.76058,
@@ -2951,6 +2962,124 @@
       ],
       "lat": 41.4901,
       "lon": -71.3128
+    },
+    "Asheville": {
+      "state": "North Carolina",
+      "region": "appalachia",
+      "locations": [
+        {
+          "name": "Pratt & Whitney Aerospace",
+          "type": "manufacturing_plant",
+          "source_note": "Pratt & Whitney turbine-airfoil plant in south Asheville (~1M sq ft)."
+        },
+        {
+          "name": "New Belgium Brewing Company",
+          "type": "food_processor",
+          "source_note": "New Belgium Brewing's East Coast brewery, Asheville River Arts District."
+        }
+      ],
+      "lat": 35.5951,
+      "lon": -82.5515
+    },
+    "Johnson City": {
+      "state": "Tennessee",
+      "region": "appalachia",
+      "locations": [
+        {
+          "name": "American Water Heater Company",
+          "type": "manufacturing_plant",
+          "source_note": "American Water Heater Company (A.O. Smith), residential/commercial water heaters, Johnson City."
+        },
+        {
+          "name": "Mullican Flooring",
+          "type": "lumber_paper",
+          "source_note": "Mullican Flooring, hardwood flooring manufacturer headquartered in Johnson City."
+        }
+      ],
+      "lat": 36.3134,
+      "lon": -82.3535
+    },
+    "Harrisonburg": {
+      "state": "Virginia",
+      "region": "appalachia",
+      "locations": [
+        {
+          "name": "Cargill Turkey Processing",
+          "type": "food_processor",
+          "source_note": "Cargill turkey processing and cooked-meats operation, Shenandoah Valley (~1,800 employees)."
+        },
+        {
+          "name": "Pilgrim's Pride Poultry Plant",
+          "type": "food_processor",
+          "source_note": "Pilgrim's Pride poultry processing, Harrisonburg."
+        },
+        {
+          "name": "Harrisonburg Feed Mill",
+          "type": "farm_elevator",
+          "source_note": "Poultry-industry feed mill serving the Shenandoah Valley grower network."
+        }
+      ],
+      "lat": 38.4496,
+      "lon": -78.8689
+    },
+    "Winchester": {
+      "state": "Virginia",
+      "region": "appalachia",
+      "locations": [
+        {
+          "name": "Rubbermaid Commercial Products",
+          "type": "distribution",
+          "source_note": "Rubbermaid Commercial Products distribution center, Stonewall Industrial Park off I-81 Exit 317."
+        },
+        {
+          "name": "HP Hood Dairy",
+          "type": "cold_storage",
+          "source_note": "HP Hood dairy plant and cold storage, Winchester."
+        },
+        {
+          "name": "Kraft Heinz Plant",
+          "type": "food_processor",
+          "source_note": "Kraft Heinz food-manufacturing plant, Winchester/Frederick County."
+        }
+      ],
+      "lat": 39.1857,
+      "lon": -78.1633
+    },
+    "Hagerstown": {
+      "state": "Maryland",
+      "region": "appalachia",
+      "locations": [
+        {
+          "name": "Volvo Group Powertrain Plant",
+          "type": "automotive_plant",
+          "source_note": "Volvo/Mack Trucks powertrain plant (engines, transmissions, axles), 1.5M sq ft, Hagerstown."
+        },
+        {
+          "name": "FedEx Ground Terminal",
+          "type": "parcel_hub",
+          "source_note": "FedEx Ground/FedEx Freight distribution at the I-70/I-81 logistics crossroads."
+        }
+      ],
+      "lat": 39.6418,
+      "lon": -77.72
+    },
+    "Beckley": {
+      "state": "West Virginia",
+      "region": "appalachia",
+      "locations": [
+        {
+          "name": "Beckley Coal Terminal",
+          "type": "mine_quarry",
+          "source_note": "Coal loadout/terminal on the Norfolk Southern line, southern West Virginia coalfields hub."
+        },
+        {
+          "name": "Raleigh County Distribution Center",
+          "type": "distribution",
+          "source_note": "Regional retail/distribution serving southern West Virginia at the I-64/I-77/US-19 junction."
+        }
+      ],
+      "lat": 37.7782,
+      "lon": -81.1882
     }
   },
   "legs": [
@@ -257781,6 +257910,1583 @@
           ],
           "parking": "confirmed",
           "curation": "curated"
+        }
+      ]
+    },
+    {
+      "from": "Knoxville",
+      "to": "Johnson City",
+      "miles": 101,
+      "highway": "I-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 35.96057,
+            "lon": -83.92077
+          },
+          {
+            "at_mi": 25.2,
+            "lat": 36.10385,
+            "lon": -83.54152
+          },
+          {
+            "at_mi": 50.5,
+            "lat": 36.1961,
+            "lon": -83.16079
+          },
+          {
+            "at_mi": 75.8,
+            "lat": 36.18252,
+            "lon": -82.74602
+          },
+          {
+            "at_mi": 101.0,
+            "lat": 36.31317,
+            "lon": -82.35329
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 898.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 25.2,
+            "elevation_ft": 1102.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 50.5,
+            "elevation_ft": 1059.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 75.8,
+            "elevation_ft": 1441.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 101.0,
+            "elevation_ft": 1640.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 101.0,
+            "avg_grade_pct": 0.14,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-81 corridor between Knoxville and Johnson City",
+            "at_mi": 50.5,
+            "type": "place",
+            "state": "Tennessee",
+            "highway": "I-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Tennessee",
+            "miles": 101.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "TravelCenters of America",
+          "type": "travel_center",
+          "at_mi": 42.0,
+          "source": "Real-world I-81/I-26 truck stop, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Johnson City",
+      "to": "Asheville",
+      "miles": 61,
+      "highway": "I-26",
+      "terrain": "hills",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 36.31317,
+            "lon": -82.35329
+          },
+          {
+            "at_mi": 15.2,
+            "lat": 36.1488,
+            "lon": -82.42342
+          },
+          {
+            "at_mi": 30.5,
+            "lat": 35.97696,
+            "lon": -82.54929
+          },
+          {
+            "at_mi": 45.8,
+            "lat": 35.78003,
+            "lon": -82.54002
+          },
+          {
+            "at_mi": 61.0,
+            "lat": 35.59517,
+            "lon": -82.55152
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1640.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 15.2,
+            "elevation_ft": 1634.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 30.5,
+            "elevation_ft": 3266.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 45.8,
+            "elevation_ft": 2096.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 61.0,
+            "elevation_ft": 2235.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 15.2,
+            "avg_grade_pct": -0.01,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          },
+          {
+            "start_mi": 15.2,
+            "end_mi": 45.8,
+            "avg_grade_pct": 0.25,
+            "terrain": "hills",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          },
+          {
+            "start_mi": 45.8,
+            "end_mi": 61.0,
+            "avg_grade_pct": 0.15,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-26 corridor between Johnson City and Asheville",
+            "at_mi": 30.5,
+            "type": "place",
+            "state": "North Carolina",
+            "highway": "I-26",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Tennessee",
+            "miles": 28.9
+          },
+          {
+            "state": "North Carolina",
+            "miles": 32.1
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 28.9,
+            "from_state": "Tennessee",
+            "state": "North Carolina",
+            "place": "Tennessee-North Carolina line on I-26",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Flying J Travel Center",
+          "type": "travel_center",
+          "at_mi": 48.0,
+          "source": "Real-world I-81/I-26 truck stop, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Asheville",
+      "to": "Knoxville",
+      "miles": 116,
+      "highway": "I-40",
+      "terrain": "hills",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 35.59517,
+            "lon": -82.55152
+          },
+          {
+            "at_mi": 29.1,
+            "lat": 35.58342,
+            "lon": -82.99103
+          },
+          {
+            "at_mi": 58.0,
+            "lat": 35.81686,
+            "lon": -83.1793
+          },
+          {
+            "at_mi": 86.9,
+            "lat": 36.02544,
+            "lon": -83.46737
+          },
+          {
+            "at_mi": 116.0,
+            "lat": 35.96057,
+            "lon": -83.92077
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2235.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 29.1,
+            "elevation_ft": 2698.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 58.0,
+            "elevation_ft": 1410.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 86.9,
+            "elevation_ft": 1283.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 116.0,
+            "elevation_ft": 898.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 29.1,
+            "avg_grade_pct": 0.31,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          },
+          {
+            "start_mi": 29.1,
+            "end_mi": 58.0,
+            "avg_grade_pct": -0.85,
+            "terrain": "hills",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          },
+          {
+            "start_mi": 58.0,
+            "end_mi": 116.0,
+            "avg_grade_pct": -0.17,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-40 corridor between Asheville and Knoxville",
+            "at_mi": 58.0,
+            "type": "place",
+            "state": "Tennessee",
+            "highway": "I-40",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "North Carolina",
+            "miles": 48.9
+          },
+          {
+            "state": "Tennessee",
+            "miles": 67.1
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 48.9,
+            "from_state": "North Carolina",
+            "state": "Tennessee",
+            "place": "North Carolina-Tennessee line on I-40",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Pilot Travel Center",
+          "type": "service_plaza",
+          "at_mi": 29.1,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        },
+        {
+          "name": "Tennessee Welcome Center - Cocke County",
+          "type": "public_rest_area",
+          "at_mi": 58.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Asheville",
+      "to": "Charlotte",
+      "miles": 127,
+      "highway": "I-40",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 35.59517,
+            "lon": -82.55152
+          },
+          {
+            "at_mi": 25.4,
+            "lat": 35.63634,
+            "lon": -82.1623
+          },
+          {
+            "at_mi": 50.8,
+            "lat": 35.71768,
+            "lon": -81.75634
+          },
+          {
+            "at_mi": 76.2,
+            "lat": 35.71414,
+            "lon": -81.31786
+          },
+          {
+            "at_mi": 101.6,
+            "lat": 35.52187,
+            "lon": -81.03817
+          },
+          {
+            "at_mi": 127.0,
+            "lat": 35.22716,
+            "lon": -80.84316
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2235.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 25.4,
+            "elevation_ft": 1398.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 50.8,
+            "elevation_ft": 1128.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 76.2,
+            "elevation_ft": 1068.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 101.6,
+            "elevation_ft": 836.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 127.0,
+            "elevation_ft": 880.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 127.0,
+            "avg_grade_pct": -0.2,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-40 corridor between Asheville and Charlotte",
+            "at_mi": 76.2,
+            "type": "place",
+            "state": "North Carolina",
+            "highway": "I-40",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "North Carolina",
+            "miles": 127.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Sheetz",
+          "type": "travel_center",
+          "at_mi": 76.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Johnson City",
+      "to": "Roanoke",
+      "miles": 176,
+      "highway": "I-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 36.31317,
+            "lon": -82.35329
+          },
+          {
+            "at_mi": 29.3,
+            "lat": 36.61671,
+            "lon": -82.18541
+          },
+          {
+            "at_mi": 58.7,
+            "lat": 36.78831,
+            "lon": -81.71462
+          },
+          {
+            "at_mi": 88.0,
+            "lat": 36.9202,
+            "lon": -81.2362
+          },
+          {
+            "at_mi": 117.3,
+            "lat": 37.00285,
+            "lon": -80.7616
+          },
+          {
+            "at_mi": 146.7,
+            "lat": 37.16111,
+            "lon": -80.32176
+          },
+          {
+            "at_mi": 176.0,
+            "lat": 37.27086,
+            "lon": -79.94143
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1640.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 29.3,
+            "elevation_ft": 1810.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 58.7,
+            "elevation_ft": 2141.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 88.0,
+            "elevation_ft": 2454.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 117.3,
+            "elevation_ft": 2083.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 146.7,
+            "elevation_ft": 1765.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 176.0,
+            "elevation_ft": 967.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 176.0,
+            "avg_grade_pct": -0.08,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-81 corridor between Johnson City and Roanoke",
+            "at_mi": 88.0,
+            "type": "place",
+            "state": "Virginia",
+            "highway": "I-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Tennessee",
+            "miles": 26.8
+          },
+          {
+            "state": "Virginia",
+            "miles": 149.2
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 26.8,
+            "from_state": "Tennessee",
+            "state": "Virginia",
+            "place": "Tennessee-Virginia line on I-81",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 55.0,
+          "source": "Real-world I-81/I-26 truck stop, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        },
+        {
+          "name": "Pilot Travel Center",
+          "type": "travel_center",
+          "at_mi": 110.0,
+          "source": "Real-world I-81/I-26 truck stop, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "confirmed",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Roanoke",
+      "to": "Harrisonburg",
+      "miles": 111,
+      "highway": "I-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.27086,
+            "lon": -79.94143
+          },
+          {
+            "at_mi": 22.2,
+            "lat": 37.49161,
+            "lon": -79.76503
+          },
+          {
+            "at_mi": 44.4,
+            "lat": 37.69519,
+            "lon": -79.47439
+          },
+          {
+            "at_mi": 66.6,
+            "lat": 37.93419,
+            "lon": -79.22571
+          },
+          {
+            "at_mi": 88.8,
+            "lat": 38.18881,
+            "lon": -78.99737
+          },
+          {
+            "at_mi": 111.0,
+            "lat": 38.44954,
+            "lon": -78.86857
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 967.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 22.2,
+            "elevation_ft": 1011.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 44.4,
+            "elevation_ft": 1162.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 66.6,
+            "elevation_ft": 1830.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 88.8,
+            "elevation_ft": 1266.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 111.0,
+            "elevation_ft": 1332.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 111.0,
+            "avg_grade_pct": 0.05,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-81 corridor between Roanoke and Harrisonburg",
+            "at_mi": 66.6,
+            "type": "place",
+            "state": "Virginia",
+            "highway": "I-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Virginia",
+            "miles": 111.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Troutville Safety Rest Area",
+          "type": "public_rest_area",
+          "at_mi": 22.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        },
+        {
+          "name": "Pilot Travel Center",
+          "type": "service_plaza",
+          "at_mi": 66.6,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Harrisonburg",
+      "to": "Winchester",
+      "miles": 70,
+      "highway": "I-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 38.44954,
+            "lon": -78.86857
+          },
+          {
+            "at_mi": 17.5,
+            "lat": 38.62781,
+            "lon": -78.69711
+          },
+          {
+            "at_mi": 35.0,
+            "lat": 38.84347,
+            "lon": -78.5555
+          },
+          {
+            "at_mi": 52.5,
+            "lat": 39.00595,
+            "lon": -78.32934
+          },
+          {
+            "at_mi": 70.0,
+            "lat": 39.18573,
+            "lon": -78.16342
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 1332.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 17.5,
+            "elevation_ft": 1133.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 35.0,
+            "elevation_ft": 913.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 52.5,
+            "elevation_ft": 600.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 70.0,
+            "elevation_ft": 708.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 70.0,
+            "avg_grade_pct": -0.12,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-81 corridor between Harrisonburg and Winchester",
+            "at_mi": 35.0,
+            "type": "place",
+            "state": "Virginia",
+            "highway": "I-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Virginia",
+            "miles": 70.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Flying J Travel Center",
+          "type": "travel_center",
+          "at_mi": 32.0,
+          "source": "Real-world I-81/I-26 truck stop, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Winchester",
+      "to": "Hagerstown",
+      "miles": 44,
+      "highway": "I-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 39.18573,
+            "lon": -78.16342
+          },
+          {
+            "at_mi": 11.0,
+            "lat": 39.32133,
+            "lon": -78.07178
+          },
+          {
+            "at_mi": 22.0,
+            "lat": 39.46024,
+            "lon": -77.98985
+          },
+          {
+            "at_mi": 33.0,
+            "lat": 39.57999,
+            "lon": -77.87044
+          },
+          {
+            "at_mi": 44.0,
+            "lat": 39.64186,
+            "lon": -77.71995
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 708.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 11.0,
+            "elevation_ft": 623.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 22.0,
+            "elevation_ft": 528.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 33.0,
+            "elevation_ft": 523.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 44.0,
+            "elevation_ft": 551.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 44.0,
+            "avg_grade_pct": -0.07,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-81 corridor between Winchester and Hagerstown",
+            "at_mi": 22.0,
+            "type": "place",
+            "state": "Maryland",
+            "highway": "I-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Virginia",
+            "miles": 9.3
+          },
+          {
+            "state": "West Virginia",
+            "miles": 26.1
+          },
+          {
+            "state": "Maryland",
+            "miles": 8.6
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 9.3,
+            "from_state": "Virginia",
+            "state": "West Virginia",
+            "place": "Virginia-West Virginia line on I-81",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          },
+          {
+            "at_mi": 35.4,
+            "from_state": "West Virginia",
+            "state": "Maryland",
+            "place": "West Virginia-Maryland line on I-81",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Flying J Travel Center",
+          "type": "service_plaza",
+          "at_mi": 11.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Hagerstown",
+      "to": "Harrisburg",
+      "miles": 77,
+      "highway": "I-81",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 39.64186,
+            "lon": -77.71995
+          },
+          {
+            "at_mi": 19.3,
+            "lat": 39.89056,
+            "lon": -77.66979
+          },
+          {
+            "at_mi": 38.5,
+            "lat": 40.08606,
+            "lon": -77.42184
+          },
+          {
+            "at_mi": 57.7,
+            "lat": 40.22373,
+            "lon": -77.14015
+          },
+          {
+            "at_mi": 77.0,
+            "lat": 40.27362,
+            "lon": -76.88459
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 551.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 19.3,
+            "elevation_ft": 641.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 38.5,
+            "elevation_ft": 750.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 57.7,
+            "elevation_ft": 453.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 77.0,
+            "elevation_ft": 337.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 77.0,
+            "avg_grade_pct": -0.05,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-81 corridor between Hagerstown and Harrisburg",
+            "at_mi": 38.5,
+            "type": "place",
+            "state": "Pennsylvania",
+            "highway": "I-81",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Maryland",
+            "miles": 7.2
+          },
+          {
+            "state": "Pennsylvania",
+            "miles": 69.8
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 7.2,
+            "from_state": "Maryland",
+            "state": "Pennsylvania",
+            "place": "Maryland-Pennsylvania line on I-81",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "TravelCenters of America",
+          "type": "truck_stop",
+          "at_mi": 58.0,
+          "source": "Real-world I-81/I-26 truck stop, verified against operator/truck-stop directory listings (development-time); curated into a gameplay POI.",
+          "parking": "confirmed",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Hagerstown",
+      "to": "Baltimore",
+      "miles": 75,
+      "highway": "I-70",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 39.64186,
+            "lon": -77.71995
+          },
+          {
+            "at_mi": 18.8,
+            "lat": 39.45008,
+            "lon": -77.50422
+          },
+          {
+            "at_mi": 37.5,
+            "lat": 39.37038,
+            "lon": -77.20481
+          },
+          {
+            "at_mi": 56.2,
+            "lat": 39.30118,
+            "lon": -76.87138
+          },
+          {
+            "at_mi": 75.0,
+            "lat": 39.29041,
+            "lon": -76.6122
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 551.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 18.8,
+            "elevation_ft": 912.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 37.5,
+            "elevation_ft": 579.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 56.2,
+            "elevation_ft": 479.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 75.0,
+            "elevation_ft": 114.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 75.0,
+            "avg_grade_pct": -0.12,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-70 corridor between Hagerstown and Baltimore",
+            "at_mi": 37.5,
+            "type": "place",
+            "state": "Maryland",
+            "highway": "I-70",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Maryland",
+            "miles": 75.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Truck Rest Area",
+          "type": "public_rest_area",
+          "at_mi": 37.5,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Beckley",
+      "to": "Charleston, West Virginia",
+      "miles": 60,
+      "highway": "I-77",
+      "terrain": "hills",
+      "corridor": {
+        "tollway_detected": true,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.77818,
+            "lon": -81.18819
+          },
+          {
+            "at_mi": 15.1,
+            "lat": 37.9306,
+            "lon": -81.26221
+          },
+          {
+            "at_mi": 30.0,
+            "lat": 38.08634,
+            "lon": -81.38696
+          },
+          {
+            "at_mi": 44.9,
+            "lat": 38.2053,
+            "lon": -81.51745
+          },
+          {
+            "at_mi": 60.0,
+            "lat": 38.34978,
+            "lon": -81.63258
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2427.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 15.1,
+            "elevation_ft": 1650.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 30.0,
+            "elevation_ft": 844.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 44.9,
+            "elevation_ft": 775.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 60.0,
+            "elevation_ft": 634.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 30.0,
+            "avg_grade_pct": -1.09,
+            "terrain": "hills",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          },
+          {
+            "start_mi": 30.0,
+            "end_mi": 60.0,
+            "avg_grade_pct": -0.14,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-77 corridor between Beckley and Charleston, West Virginia",
+            "at_mi": 30.0,
+            "type": "place",
+            "state": "West Virginia",
+            "highway": "I-77",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "West Virginia",
+            "miles": 60.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Chad A. Snead Truck Stop",
+          "type": "travel_center",
+          "at_mi": 44.9,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Beckley",
+      "to": "Roanoke",
+      "miles": 124,
+      "highway": "I-77",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": true,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 37.77818,
+            "lon": -81.18819
+          },
+          {
+            "at_mi": 24.8,
+            "lat": 37.49534,
+            "lon": -81.10219
+          },
+          {
+            "at_mi": 49.6,
+            "lat": 37.3889,
+            "lon": -80.83502
+          },
+          {
+            "at_mi": 74.4,
+            "lat": 37.28688,
+            "lon": -80.48527
+          },
+          {
+            "at_mi": 99.2,
+            "lat": 37.20201,
+            "lon": -80.26674
+          },
+          {
+            "at_mi": 124.0,
+            "lat": 37.27086,
+            "lon": -79.94143
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 2427.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 24.8,
+            "elevation_ft": 2044.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 49.6,
+            "elevation_ft": 1510.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 74.4,
+            "elevation_ft": 2399.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 99.2,
+            "elevation_ft": 1789.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 124.0,
+            "elevation_ft": 967.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 124.0,
+            "avg_grade_pct": -0.23,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-77 corridor between Beckley and Roanoke",
+            "at_mi": 74.4,
+            "type": "place",
+            "state": "Virginia",
+            "highway": "I-77",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "West Virginia",
+            "miles": 52.6
+          },
+          {
+            "state": "Virginia",
+            "miles": 71.4
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 52.6,
+            "from_state": "West Virginia",
+            "state": "Virginia",
+            "place": "West Virginia-Virginia line on I-77",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Lancer Truck Stop",
+          "type": "service_plaza",
+          "at_mi": 99.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
         }
       ]
     }
