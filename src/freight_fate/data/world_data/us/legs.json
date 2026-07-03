@@ -259359,6 +259359,2256 @@
           ]
         }
       ]
+    },
+    {
+      "from": "Springfield, Illinois",
+      "to": "Decatur",
+      "miles": 41,
+      "highway": "I-72",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 39.78172,
+            "lon": -89.6501
+          },
+          {
+            "at_mi": 10.2,
+            "lat": 39.8377,
+            "lon": -89.5143
+          },
+          {
+            "at_mi": 20.5,
+            "lat": 39.8376,
+            "lon": -89.30617
+          },
+          {
+            "at_mi": 30.7,
+            "lat": 39.83107,
+            "lon": -89.13099
+          },
+          {
+            "at_mi": 41.0,
+            "lat": 39.84034,
+            "lon": -88.9548
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 610.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 10.2,
+            "elevation_ft": 577.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 20.5,
+            "elevation_ft": 598.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 30.7,
+            "elevation_ft": 600.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 41.0,
+            "elevation_ft": 680.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 41.0,
+            "avg_grade_pct": 0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-72 corridor between Springfield, Illinois and Decatur",
+            "at_mi": 20.5,
+            "type": "place",
+            "state": "Illinois",
+            "highway": "I-72",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 41.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Road Ranger",
+          "type": "service_plaza",
+          "at_mi": 10.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Springfield, Illinois",
+      "to": "Bloomington",
+      "miles": 68,
+      "highway": "I-55",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 39.78172,
+            "lon": -89.6501
+          },
+          {
+            "at_mi": 16.9,
+            "lat": 39.96196,
+            "lon": -89.55054
+          },
+          {
+            "at_mi": 34.0,
+            "lat": 40.17027,
+            "lon": -89.41739
+          },
+          {
+            "at_mi": 51.1,
+            "lat": 40.30342,
+            "lon": -89.18025
+          },
+          {
+            "at_mi": 68.0,
+            "lat": 40.48419,
+            "lon": -88.99373
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 610.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 16.9,
+            "elevation_ft": 577.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 34.0,
+            "elevation_ft": 558.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 51.1,
+            "elevation_ft": 708.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 68.0,
+            "elevation_ft": 805.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 68.0,
+            "avg_grade_pct": 0.06,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-55 corridor between Springfield, Illinois and Bloomington",
+            "at_mi": 34.0,
+            "type": "place",
+            "state": "Illinois",
+            "highway": "I-55",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 68.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "service_plaza",
+          "at_mi": 16.9,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        },
+        {
+          "name": "Road Ranger",
+          "type": "travel_center",
+          "at_mi": 51.1,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Springfield, Illinois",
+      "to": "St. Louis",
+      "miles": 96,
+      "highway": "I-55",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 39.78172,
+            "lon": -89.6501
+          },
+          {
+            "at_mi": 24.1,
+            "lat": 39.41519,
+            "lon": -89.64362
+          },
+          {
+            "at_mi": 48.0,
+            "lat": 39.09949,
+            "lon": -89.73531
+          },
+          {
+            "at_mi": 71.9,
+            "lat": 38.79945,
+            "lon": -89.89429
+          },
+          {
+            "at_mi": 96.0,
+            "lat": 38.62681,
+            "lon": -90.19861
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 610.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 24.1,
+            "elevation_ft": 646.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 48.0,
+            "elevation_ft": 661.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 71.9,
+            "elevation_ft": 547.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 96.0,
+            "elevation_ft": 495.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 96.0,
+            "avg_grade_pct": -0.02,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-55 corridor between Springfield, Illinois and St. Louis",
+            "at_mi": 48.0,
+            "type": "place",
+            "state": "Missouri",
+            "highway": "I-55",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 95.0
+          },
+          {
+            "state": "Missouri",
+            "miles": 1.0
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 95.0,
+            "from_state": "Illinois",
+            "state": "Missouri",
+            "place": "Illinois-Missouri line on I-55",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Pilot Travel Center",
+          "type": "travel_center",
+          "at_mi": 50.0,
+          "source": "Love's/Pilot travel center on the corridor (both operate throughout IL/MI), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Bloomington",
+      "to": "Peoria",
+      "miles": 40,
+      "highway": "I-74",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 40.48419,
+            "lon": -88.99373
+          },
+          {
+            "at_mi": 10.0,
+            "lat": 40.55295,
+            "lon": -89.09887
+          },
+          {
+            "at_mi": 20.0,
+            "lat": 40.61694,
+            "lon": -89.25633
+          },
+          {
+            "at_mi": 30.0,
+            "lat": 40.62108,
+            "lon": -89.44622
+          },
+          {
+            "at_mi": 40.0,
+            "lat": 40.69374,
+            "lon": -89.58909
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 805.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 10.0,
+            "elevation_ft": 807.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 20.0,
+            "elevation_ft": 695.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 30.0,
+            "elevation_ft": 721.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 40.0,
+            "elevation_ft": 543.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 40.0,
+            "avg_grade_pct": -0.12,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-74 corridor between Bloomington and Peoria",
+            "at_mi": 20.0,
+            "type": "place",
+            "state": "Illinois",
+            "highway": "I-74",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 40.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Mackinaw Dells Rest Area Eastbound",
+          "type": "public_rest_area",
+          "at_mi": 20.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Bloomington",
+      "to": "Champaign",
+      "miles": 52,
+      "highway": "I-74",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 40.48419,
+            "lon": -88.99373
+          },
+          {
+            "at_mi": 13.0,
+            "lat": 40.36512,
+            "lon": -88.82195
+          },
+          {
+            "at_mi": 26.0,
+            "lat": 40.2616,
+            "lon": -88.64611
+          },
+          {
+            "at_mi": 39.0,
+            "lat": 40.20611,
+            "lon": -88.4177
+          },
+          {
+            "at_mi": 52.0,
+            "lat": 40.1164,
+            "lon": -88.24352
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 805.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 13.0,
+            "elevation_ft": 787.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 26.0,
+            "elevation_ft": 738.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 39.0,
+            "elevation_ft": 780.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 52.0,
+            "elevation_ft": 757.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 52.0,
+            "avg_grade_pct": -0.02,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-74 corridor between Bloomington and Champaign",
+            "at_mi": 26.0,
+            "type": "place",
+            "state": "Illinois",
+            "highway": "I-74",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 52.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "service_plaza",
+          "at_mi": 13.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        },
+        {
+          "name": "Farmland Rest Area - Eastbound",
+          "type": "public_rest_area",
+          "at_mi": 26.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Bloomington",
+      "to": "Chicago",
+      "miles": 134,
+      "highway": "I-55",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 40.48419,
+            "lon": -88.99373
+          },
+          {
+            "at_mi": 26.8,
+            "lat": 40.76304,
+            "lon": -88.71924
+          },
+          {
+            "at_mi": 53.6,
+            "lat": 41.0693,
+            "lon": -88.45794
+          },
+          {
+            "at_mi": 80.4,
+            "lat": 41.36984,
+            "lon": -88.19216
+          },
+          {
+            "at_mi": 107.2,
+            "lat": 41.69899,
+            "lon": -88.04093
+          },
+          {
+            "at_mi": 134.0,
+            "lat": 41.8781,
+            "lon": -87.62977
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 805.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 26.8,
+            "elevation_ft": 696.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 53.6,
+            "elevation_ft": 658.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 80.4,
+            "elevation_ft": 523.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 107.2,
+            "elevation_ft": 748.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 134.0,
+            "elevation_ft": 800.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 134.0,
+            "avg_grade_pct": -0.0,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-55 corridor between Bloomington and Chicago",
+            "at_mi": 80.4,
+            "type": "place",
+            "state": "Illinois",
+            "highway": "I-55",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 134.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Petro Stopping Centers",
+          "type": "service_plaza",
+          "at_mi": 80.4,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Champaign",
+      "to": "Decatur",
+      "miles": 50,
+      "highway": "I-72",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 40.1164,
+            "lon": -88.24352
+          },
+          {
+            "at_mi": 12.5,
+            "lat": 40.11955,
+            "lon": -88.46662
+          },
+          {
+            "at_mi": 25.0,
+            "lat": 40.02603,
+            "lon": -88.67433
+          },
+          {
+            "at_mi": 37.5,
+            "lat": 39.93477,
+            "lon": -88.83975
+          },
+          {
+            "at_mi": 50.0,
+            "lat": 39.84034,
+            "lon": -88.9548
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 757.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 12.5,
+            "elevation_ft": 708.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 25.0,
+            "elevation_ft": 692.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 37.5,
+            "elevation_ft": 669.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 50.0,
+            "elevation_ft": 680.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 50.0,
+            "avg_grade_pct": -0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-72 corridor between Champaign and Decatur",
+            "at_mi": 25.0,
+            "type": "place",
+            "state": "Illinois",
+            "highway": "I-72",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 50.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 25.0,
+          "source": "Love's/Pilot travel center on the corridor (both operate throughout IL/MI), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Champaign",
+      "to": "Indianapolis",
+      "miles": 127,
+      "highway": "I-74",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 40.1164,
+            "lon": -88.24352
+          },
+          {
+            "at_mi": 31.8,
+            "lat": 40.10629,
+            "lon": -87.67765
+          },
+          {
+            "at_mi": 63.5,
+            "lat": 40.11005,
+            "lon": -87.09288
+          },
+          {
+            "at_mi": 95.2,
+            "lat": 39.91517,
+            "lon": -86.57225
+          },
+          {
+            "at_mi": 127.0,
+            "lat": 39.76802,
+            "lon": -86.15827
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 757.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 31.8,
+            "elevation_ft": 647.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 63.5,
+            "elevation_ft": 751.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 95.2,
+            "elevation_ft": 954.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 127.0,
+            "elevation_ft": 800.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 127.0,
+            "avg_grade_pct": 0.01,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-74 corridor between Champaign and Indianapolis",
+            "at_mi": 63.5,
+            "type": "place",
+            "state": "Indiana",
+            "highway": "I-74",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Illinois",
+            "miles": 40.8
+          },
+          {
+            "state": "Indiana",
+            "miles": 86.2
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 40.8,
+            "from_state": "Illinois",
+            "state": "Indiana",
+            "place": "Illinois-Indiana line on I-74",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Salt Kettle Rest Area",
+          "type": "public_rest_area",
+          "at_mi": 31.8,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        },
+        {
+          "name": "Lizton Rest Area Eastbound",
+          "type": "public_rest_area",
+          "at_mi": 95.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Flint",
+      "to": "Detroit",
+      "miles": 68,
+      "highway": "I-75",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 43.01266,
+            "lon": -83.68764
+          },
+          {
+            "at_mi": 16.9,
+            "lat": 42.81041,
+            "lon": -83.56871
+          },
+          {
+            "at_mi": 34.0,
+            "lat": 42.70527,
+            "lon": -83.29668
+          },
+          {
+            "at_mi": 51.1,
+            "lat": 42.55374,
+            "lon": -83.11716
+          },
+          {
+            "at_mi": 68.0,
+            "lat": 42.3314,
+            "lon": -83.0458
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 756.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 16.9,
+            "elevation_ft": 968.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 34.0,
+            "elevation_ft": 1043.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 51.1,
+            "elevation_ft": 655.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 68.0,
+            "elevation_ft": 672.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 68.0,
+            "avg_grade_pct": -0.02,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-75 corridor between Flint and Detroit",
+            "at_mi": 34.0,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "I-75",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 68.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Pilot Travel Center",
+          "type": "travel_center",
+          "at_mi": 35.0,
+          "source": "Love's/Pilot travel center on the corridor (both operate throughout IL/MI), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Flint",
+      "to": "Lansing",
+      "miles": 51,
+      "highway": "I-69",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 43.01266,
+            "lon": -83.68764
+          },
+          {
+            "at_mi": 12.8,
+            "lat": 42.96457,
+            "lon": -83.91848
+          },
+          {
+            "at_mi": 25.5,
+            "lat": 42.87494,
+            "lon": -84.12857
+          },
+          {
+            "at_mi": 38.2,
+            "lat": 42.79945,
+            "lon": -84.3515
+          },
+          {
+            "at_mi": 51.0,
+            "lat": 42.73253,
+            "lon": -84.55547
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 756.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 12.8,
+            "elevation_ft": 803.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 25.5,
+            "elevation_ft": 841.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 38.2,
+            "elevation_ft": 859.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 51.0,
+            "elevation_ft": 849.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 51.0,
+            "avg_grade_pct": 0.04,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-69 corridor between Flint and Lansing",
+            "at_mi": 25.5,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "I-69",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 51.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Swartz Creek Rest Area 627",
+          "type": "public_rest_area",
+          "at_mi": 12.8,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Flint",
+      "to": "Saginaw",
+      "miles": 37,
+      "highway": "I-75",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 43.01266,
+            "lon": -83.68764
+          },
+          {
+            "at_mi": 9.3,
+            "lat": 43.09624,
+            "lon": -83.75477
+          },
+          {
+            "at_mi": 18.5,
+            "lat": 43.22131,
+            "lon": -83.76885
+          },
+          {
+            "at_mi": 27.7,
+            "lat": 43.33448,
+            "lon": -83.86139
+          },
+          {
+            "at_mi": 37.0,
+            "lat": 43.42022,
+            "lon": -83.95017
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 756.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 9.3,
+            "elevation_ft": 751.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 18.5,
+            "elevation_ft": 662.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 27.7,
+            "elevation_ft": 602.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 37.0,
+            "elevation_ft": 593.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 37.0,
+            "avg_grade_pct": -0.09,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-75 corridor between Flint and Saginaw",
+            "at_mi": 18.5,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "I-75",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 37.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "service_plaza",
+          "at_mi": 27.7,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Saginaw",
+      "to": "Lansing",
+      "miles": 83,
+      "highway": "US-127",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 43.42022,
+            "lon": -83.95017
+          },
+          {
+            "at_mi": 20.8,
+            "lat": 43.18303,
+            "lon": -83.76899
+          },
+          {
+            "at_mi": 41.5,
+            "lat": 42.96487,
+            "lon": -83.872
+          },
+          {
+            "at_mi": 62.2,
+            "lat": 42.84094,
+            "lon": -84.20996
+          },
+          {
+            "at_mi": 83.0,
+            "lat": 42.73253,
+            "lon": -84.55547
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 593.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 20.8,
+            "elevation_ft": 682.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 41.5,
+            "elevation_ft": 810.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 62.2,
+            "elevation_ft": 879.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 83.0,
+            "elevation_ft": 849.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 83.0,
+            "avg_grade_pct": 0.09,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-127 corridor between Saginaw and Lansing",
+            "at_mi": 41.5,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "US-127",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 83.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 42.0,
+          "source": "Love's/Pilot travel center on the corridor (both operate throughout IL/MI), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Kalamazoo",
+      "to": "Grand Rapids",
+      "miles": 50,
+      "highway": "US-131",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 42.2917,
+            "lon": -85.5873
+          },
+          {
+            "at_mi": 12.5,
+            "lat": 42.43617,
+            "lon": -85.6608
+          },
+          {
+            "at_mi": 25.0,
+            "lat": 42.60864,
+            "lon": -85.66006
+          },
+          {
+            "at_mi": 37.5,
+            "lat": 42.79991,
+            "lon": -85.66864
+          },
+          {
+            "at_mi": 50.0,
+            "lat": 42.96341,
+            "lon": -85.66789
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 795.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 12.5,
+            "elevation_ft": 738.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 25.0,
+            "elevation_ft": 794.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 37.5,
+            "elevation_ft": 805.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 50.0,
+            "elevation_ft": 670.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 50.0,
+            "avg_grade_pct": -0.05,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-131 corridor between Kalamazoo and Grand Rapids",
+            "at_mi": 25.0,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "US-131",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 50.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 26.0,
+          "source": "Love's/Pilot travel center on the corridor (both operate throughout IL/MI), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Kalamazoo",
+      "to": "South Bend",
+      "miles": 76,
+      "highway": "I-94",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": true,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 42.2917,
+            "lon": -85.5873
+          },
+          {
+            "at_mi": 19.1,
+            "lat": 42.05702,
+            "lon": -85.63602
+          },
+          {
+            "at_mi": 38.0,
+            "lat": 41.79955,
+            "lon": -85.66253
+          },
+          {
+            "at_mi": 56.9,
+            "lat": 41.73104,
+            "lon": -85.96354
+          },
+          {
+            "at_mi": 76.0,
+            "lat": 41.68316,
+            "lon": -86.25001
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 795.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 19.1,
+            "elevation_ft": 836.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 38.0,
+            "elevation_ft": 816.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 56.9,
+            "elevation_ft": 777.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 76.0,
+            "elevation_ft": 715.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 76.0,
+            "avg_grade_pct": -0.03,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-94 corridor between Kalamazoo and South Bend",
+            "at_mi": 38.0,
+            "type": "place",
+            "state": "Indiana",
+            "highway": "I-94",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 41.2
+          },
+          {
+            "state": "Indiana",
+            "miles": 34.8
+          }
+        ],
+        "state_crossings": [
+          {
+            "at_mi": 41.2,
+            "from_state": "Michigan",
+            "state": "Indiana",
+            "place": "Michigan-Indiana line on I-94",
+            "source": "Computed from OSRM route geometry and public U.S. state boundary GeoJSON."
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Rest Area Trucks Only",
+          "type": "public_rest_area",
+          "at_mi": 38.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        },
+        {
+          "name": "George N. Craig Travel Plaza EB",
+          "type": "service_plaza",
+          "at_mi": 56.9,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Kalamazoo",
+      "to": "Detroit",
+      "miles": 140,
+      "highway": "I-94",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 42.2917,
+            "lon": -85.5873
+          },
+          {
+            "at_mi": 28.0,
+            "lat": 42.29982,
+            "lon": -85.08167
+          },
+          {
+            "at_mi": 56.0,
+            "lat": 42.26902,
+            "lon": -84.54221
+          },
+          {
+            "at_mi": 84.0,
+            "lat": 42.29483,
+            "lon": -84.01977
+          },
+          {
+            "at_mi": 112.0,
+            "lat": 42.37866,
+            "lon": -83.53152
+          },
+          {
+            "at_mi": 140.0,
+            "lat": 42.3314,
+            "lon": -83.0458
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 795.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 28.0,
+            "elevation_ft": 895.7,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 56.0,
+            "elevation_ft": 990.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 84.0,
+            "elevation_ft": 928.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 112.0,
+            "elevation_ft": 846.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 140.0,
+            "elevation_ft": 672.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 140.0,
+            "avg_grade_pct": -0.02,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-94 corridor between Kalamazoo and Detroit",
+            "at_mi": 84.0,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "I-94",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 140.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Chelsea Rest Area",
+          "type": "public_rest_area",
+          "at_mi": 84.0,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Port Huron",
+      "to": "Detroit",
+      "miles": 63,
+      "highway": "I-94",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 42.97089,
+            "lon": -82.4246
+          },
+          {
+            "at_mi": 15.8,
+            "lat": 42.82626,
+            "lon": -82.60818
+          },
+          {
+            "at_mi": 31.5,
+            "lat": 42.67494,
+            "lon": -82.82004
+          },
+          {
+            "at_mi": 47.2,
+            "lat": 42.48151,
+            "lon": -82.91688
+          },
+          {
+            "at_mi": 63.0,
+            "lat": 42.3314,
+            "lon": -83.0458
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 605.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 15.8,
+            "elevation_ft": 643.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 31.5,
+            "elevation_ft": 587.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 47.2,
+            "elevation_ft": 597.1,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 63.0,
+            "elevation_ft": 672.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 63.0,
+            "avg_grade_pct": 0.02,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-94 corridor between Port Huron and Detroit",
+            "at_mi": 31.5,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "I-94",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 63.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "service_plaza",
+          "at_mi": 15.8,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Port Huron",
+      "to": "Flint",
+      "miles": 67,
+      "highway": "I-69",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 42.97089,
+            "lon": -82.4246
+          },
+          {
+            "at_mi": 16.7,
+            "lat": 42.97213,
+            "lon": -82.73383
+          },
+          {
+            "at_mi": 33.5,
+            "lat": 43.0017,
+            "lon": -83.05506
+          },
+          {
+            "at_mi": 50.3,
+            "lat": 43.03031,
+            "lon": -83.37604
+          },
+          {
+            "at_mi": 67.0,
+            "lat": 43.01266,
+            "lon": -83.68764
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 605.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 16.7,
+            "elevation_ft": 750.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 33.5,
+            "elevation_ft": 805.4,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 50.3,
+            "elevation_ft": 880.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 67.0,
+            "elevation_ft": 756.2,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 67.0,
+            "avg_grade_pct": 0.04,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-69 corridor between Port Huron and Flint",
+            "at_mi": 33.5,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "I-69",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 67.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 35.0,
+          "source": "Love's/Pilot travel center on the corridor (both operate throughout IL/MI), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Muskegon",
+      "to": "Grand Rapids",
+      "miles": 41,
+      "highway": "I-96",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 43.23426,
+            "lon": -86.24839
+          },
+          {
+            "at_mi": 10.2,
+            "lat": 43.13608,
+            "lon": -86.15204
+          },
+          {
+            "at_mi": 20.5,
+            "lat": 43.06992,
+            "lon": -85.98739
+          },
+          {
+            "at_mi": 30.7,
+            "lat": 43.02826,
+            "lon": -85.79947
+          },
+          {
+            "at_mi": 41.0,
+            "lat": 42.96341,
+            "lon": -85.66789
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 627.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 10.2,
+            "elevation_ft": 629.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 20.5,
+            "elevation_ft": 643.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 30.7,
+            "elevation_ft": 707.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 41.0,
+            "elevation_ft": 670.9,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 41.0,
+            "avg_grade_pct": 0.02,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "I-96 corridor between Muskegon and Grand Rapids",
+            "at_mi": 20.5,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "I-96",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 41.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Fruitport Rest Area 502",
+          "type": "public_rest_area",
+          "at_mi": 10.2,
+          "source": "OpenStreetMap/Overpass development-time corridor amenity query, accessed 2026-06-21; curated into a gameplay POI (clean name, normalized category) without raw OSM IDs.",
+          "parking": "limited",
+          "actions": [
+            "park",
+            "save",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "parking",
+            "restrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "Muskegon",
+      "to": "Kalamazoo",
+      "miles": 92,
+      "highway": "US-131",
+      "terrain": "flat",
+      "corridor": {
+        "tollway_detected": false,
+        "route_points": [
+          {
+            "at_mi": 0.0,
+            "lat": 43.23426,
+            "lon": -86.24839
+          },
+          {
+            "at_mi": 23.1,
+            "lat": 43.05434,
+            "lon": -85.95327
+          },
+          {
+            "at_mi": 46.0,
+            "lat": 42.89874,
+            "lon": -85.67797
+          },
+          {
+            "at_mi": 68.9,
+            "lat": 42.56637,
+            "lon": -85.6625
+          },
+          {
+            "at_mi": 92.0,
+            "lat": 42.2917,
+            "lon": -85.5873
+          }
+        ],
+        "elevation_samples": [
+          {
+            "at_mi": 0.0,
+            "elevation_ft": 627.3,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 23.1,
+            "elevation_ft": 657.5,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 46.0,
+            "elevation_ft": 666.0,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 68.9,
+            "elevation_ft": 780.8,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          },
+          {
+            "at_mi": 92.0,
+            "elevation_ft": 795.6,
+            "source": "OpenRouteService driving-hgv route elevation over OpenStreetMap (SRTM/elevation), sampled at development time."
+          }
+        ],
+        "grade_segments": [
+          {
+            "start_mi": 0.0,
+            "end_mi": 92.0,
+            "avg_grade_pct": 0.04,
+            "terrain": "flat",
+            "source": "OpenRouteService route elevation profile segmented by terrain (development-time)."
+          }
+        ],
+        "checkpoints": [
+          {
+            "name": "US-131 corridor between Muskegon and Kalamazoo",
+            "at_mi": 46.0,
+            "type": "place",
+            "state": "Michigan",
+            "highway": "US-131",
+            "source": "Curated OSRM/OpenStreetMap corridor checkpoint."
+          }
+        ],
+        "state_miles": [
+          {
+            "state": "Michigan",
+            "miles": 92.0
+          }
+        ],
+        "source": "Development-time OpenRouteService driving-hgv (truck) route geometry and elevation over OpenStreetMap, with Census/OpenStreetMap state context and curated corridor POIs checked in for offline runtime use."
+      },
+      "stops": [
+        {
+          "name": "Love's Travel Stop",
+          "type": "travel_center",
+          "at_mi": 45.0,
+          "source": "Love's/Pilot travel center on the corridor (both operate throughout IL/MI), verified against operator directory listings (development-time); curated into a gameplay POI.",
+          "parking": "likely",
+          "actions": [
+            "park",
+            "save",
+            "fuel",
+            "food",
+            "break",
+            "sleep"
+          ],
+          "services": [
+            "diesel",
+            "food",
+            "parking",
+            "showers",
+            "scale"
+          ]
+        }
+      ]
     }
   ]
 }
